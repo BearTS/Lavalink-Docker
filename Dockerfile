@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk:13
+FROM arm64v8/openjdk:17-jdk-slim-buster
 
 
 RUN mkdir -p /usr/src/lavalink

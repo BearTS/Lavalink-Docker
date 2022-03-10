@@ -1,5 +1,4 @@
-FROM arm64v8/openjdk:17-jdk-slim-buster
-
+FROM arm64v8/openjdk:slim
 
 RUN mkdir -p /usr/src/lavalink
 WORKDIR /usr/src/lavalink
